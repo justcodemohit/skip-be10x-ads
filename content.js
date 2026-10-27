@@ -45,9 +45,8 @@ function restore(video) {
     video.playbackRate = saved.rate;
     video.muted = saved.muted;
   }
-  applied = false;
-  saved = null;
-}
+  saved = null;}
+
 
 function tick() {
   const player = document.querySelector('.html5-video-player');
