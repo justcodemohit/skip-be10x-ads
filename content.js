@@ -45,6 +45,7 @@ function restore(video) {
     video.playbackRate = saved.rate;
     video.muted = saved.muted;
   }
+  applied=false;
   saved = null;}
 
 
